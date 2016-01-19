@@ -25,10 +25,11 @@ The biggest advantage of *libmarisa* is that its dictionary size is considerably
   * Number of keys: 9,805,576
   * Total size: 200,435,403 bytes (plain) / 54,933,690 bytes (gzipped)
 
-|*Implementation* | *Size (bytes)* | *Remarks*                   |
+| Implementation   | Size (bytes)   | Remarks                     |
+| ---------------- | -------------- | --------------------------- |
 |  darts-clone     |   376,613,888  | Compacted double-array trie |
 |  tx-trie         |   127,727,058  | LOUDS-based trie            |
-| *marisa-trie*    |    50,753,560  | MARISA trie                 |
+|  marisa-trie     |    50,753,560  | MARISA trie                 |
 
  * Documentation
   * marisa-0.2.4
@@ -43,4 +44,5 @@ The biggest advantage of *libmarisa* is that its dictionary size is considerably
 # Source code license
 
 The BSD 2-clause License
+
 The LGPL 2.1 or any later version
